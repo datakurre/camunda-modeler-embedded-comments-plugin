@@ -5,7 +5,7 @@ module.exports = {
   entry: './client/client.js',
   output: {
     path: path.resolve(__dirname, 'client'),
-    filename: 'client.bundle.js'
+    filename: 'client-bundle.js'
   },
   devtool: 'cheap-module-source-map'
 };
